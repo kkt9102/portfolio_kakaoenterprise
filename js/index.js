@@ -138,8 +138,16 @@ setInterval(function a() {
   }, 39000);
 }, 39500);
 
+function alerted(){
+	$('.alerted > .alert-box > .close-btn > .close-text').click(function(){
+		$('.alerted').removeClass('active');
+	})
+}
+
+
 
 $(function () {
   site_btn();
   main_scroll();
+  alerted();
 })

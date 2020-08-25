@@ -7,12 +7,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>카카오앤터프라이즈</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="shortcut icon" href="https://kkt9102.github.io/img1/blog/article/portfolio/kakaoenterprise/favicon_96.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://kkt9102.github.io/img1/blog/article/portfolio/kakaoenterprise/favicon_96.png"
+    type="image/x-icon">
   <link rel="stylesheet" href="index.css">
   <script src="index.js"></script>
 </head>
 
 <body>
+  <!-- 모작페이지 알람 -->
+  <div class="alerted active">
+    <div class="alert-box inline-block">이 페이지는 포트폴리오를 위한 페이지 입니다.
+      <div class="close-btn text-align-center">
+        <div class="close-text inline-block">확인</div>
+      </div>
+    </div>
+  </div>
+  <!-- 모작페이지 알람 끝 -->
   <!-- top-bar -->
   <div>
     <div class="top-bar flex fixed font-weight-500">
